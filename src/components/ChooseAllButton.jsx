@@ -20,8 +20,10 @@ function ChooseAllButton({ todo }) {
   };
 
   return (
-    <motion.div className={styles.text} onClick={handleAll}>
-        Вычеркнуть все 
+    <motion.div className={styles.text} >
+        <Button onClick={handleAll}>
+           Вычеркнуть все 
+        </Button>
 
         {!checked ? <Button variant='primary'>Отменить</Button> : <></>}
 

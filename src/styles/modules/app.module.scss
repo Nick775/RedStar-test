@@ -3,7 +3,7 @@
 .app__wrapper {
 	max-width: 750px;
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 auto;	
 }
 .appHeader {
 	display: flex;
@@ -12,6 +12,7 @@
 	height: 60px;
 }
 .content__wrapper {
+
 	background-color: var(--bg-2);
 	padding: 2rem;
 	border-radius: 12px;
